@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ip netns exec ns2 tcpdump -i veth2 -c 7 -w ah-tunnel__ping__veth2.pcap &
+ip netns exec ns2 tcpdump -i veth2 -c 7 -w ah-tunnel-policy__ping__veth2.pcap &
 
 # Waiting for tcpdump to be ready...
 sleep 1
